@@ -324,7 +324,7 @@
     });
     /* poraštės žodinis ženklas iškyla */
     const fw = $('[data-ftr-word]');
-    if (fw) gsap.from(fw, { yPercent: 60, ease: 'none', scrollTrigger: { trigger: fw, start: 'top bottom', end: 'bottom bottom', scrub: true } });
+    if (fw) gsap.from(fw, { yPercent: 60, ease: 'none', scrollTrigger: { trigger: fw.parentElement, start: 'top bottom', end: 'bottom bottom', scrub: true } });
   }
 
   /* magnetiniai elementai */

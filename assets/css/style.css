@@ -546,9 +546,11 @@ ul, ol { padding: 0; list-style: none; }
 .ftr__social a { width: 44px; height: 44px; display: grid; place-items: center; background: var(--night-3); color: var(--on-night); }
 .ftr__social a:hover { background: var(--lime); color: var(--ink); }
 .ftr__social .ic { width: 20px; height: 20px; }
-.ftr__word { margin-top: clamp(48px, 6vw, 90px); display: flex; align-items: flex-end; gap: 2vw; color: var(--on-night); line-height: .74; }
-.ftr__word span { font: 900 clamp(90px, 21.5vw, 390px)/.74 var(--font-d); letter-spacing: .02em; text-transform: uppercase; display: block; transform: translateY(8%); }
-.ftr__word img { width: clamp(70px, 14vw, 250px); height: auto; flex: none; margin-bottom: 1.4vw; }
+/* žodinis ženklas visada užpildo konteinerio plotį: raganosis 15 %, tarpas 2,4 %, žodis likusi dalis
+   (žodžio plotis = 2,94 × šrifto dydis, todėl 27,4cqi × 2,94 ≈ 80,5 % pločio) */
+.ftr__word { container-type: inline-size; margin-top: clamp(48px, 6vw, 90px); display: flex; align-items: flex-end; padding-bottom: clamp(6px, .8vw, 14px); color: var(--on-night); }
+.ftr__word span { display: block; white-space: nowrap; font: 900 min(17vw, 260px)/.8 var(--font-d); font-size: 27.4cqi; letter-spacing: .02em; text-transform: uppercase; }
+.ftr__word img { width: 15cqi; height: auto; flex: none; margin: 0 2.4cqi 1.2cqi 0; }
 .ftr__word { overflow: hidden; }
 .hdr.is-menu { color: var(--on-night); }
 .hdr.is-menu::before { opacity: 1; background: var(--night); box-shadow: 0 1px 0 rgba(255, 255, 255, .08); }
