@@ -1,0 +1,58 @@
+{
+  "_info": "Pexels medija (Pexels licencija). Failai generuojami: python3 tools/media.py --ffmpeg <kelias>. Nuotraukos konvertuojamos i WebP, video apkarpomi ir suspaudziami H.264 be garso.",
+  "photos": [
+    {"id": 15109999, "file": "cat-plastmasiniai-fiksatoriai", "w": 1600, "author": "IslandHopper X", "use": "Kategorija: plastmasiniai armaturos fiksatoriai"},
+    {"id": 13848642, "file": "cat-profiliai", "w": 1400, "author": "Johanka Hubikova", "use": "Kategorija: plastmasiniai profiliai"},
+    {"id": 39869453, "file": "cat-klojiniu-priedai", "w": 1600, "author": "Unal POLAT", "use": "Kategorija: klojiniu priedai"},
+    {"id": 36847981, "file": "cat-metaliniai", "w": 1400, "author": "Ümit Tektaş", "use": "Kategorija: metaliniai fiksatoriai"},
+    {"id": 25643330, "file": "cat-betoniniai", "w": 1600, "author": "Jan van der Wolf", "use": "Kategorija: betoniniai fiksatoriai"},
+    {"id": 36815365, "file": "cat-hidroizoliacija", "w": 1400, "author": "Peter Dyllong", "use": "Kategorija: hidroizoliacines medziagos"},
+    {"id": 37121405, "file": "cat-alyva", "w": 1600, "author": "SÀI GÒN CÔNG TY CP SẢN XUẤT - THƯƠNG MẠI", "use": "Kategorija: alyva, tepalai, priedai"},
+    {"id": 17048866, "file": "cat-magnetai", "w": 1600, "author": "Harri Hofer", "use": "Kategorija: magnetai"},
+    {"id": 35598611, "file": "band-rebar", "w": 2200, "author": "Serhii Barkanov", "use": "Parallax juosta, produkto hero"},
+    {"id": 3964653, "file": "tex-concrete-wall", "w": 2000, "author": "ready made", "use": "Betono tekstura (fonai)"},
+    {"id": 16001335, "file": "tex-concrete-rebar", "w": 2000, "author": "Paul Seling", "use": "Betono siena su armatura"},
+    {"id": 2463329, "file": "tex-dark", "w": 2000, "author": "Archie Binamira", "use": "Tamsi tekstura (poraste)"},
+    {"id": 7461108, "file": "val-komanda", "w": 1400, "author": "FURKAN GÜNEŞ", "use": "Vertybe: komandinis darbas"},
+    {"id": 6720535, "file": "val-klientas", "w": 1400, "author": "Gustavo Fring", "use": "Vertybe: demesys klientui"},
+    {"id": 8961146, "file": "val-tobulejimas", "w": 1400, "author": "Mikael Blomkvist", "use": "Vertybe: nuolatinis tobulejimas"},
+    {"id": 34246394, "file": "city-vilnius", "w": 1400, "author": "Omar", "use": "Rinkos: Vilnius"},
+    {"id": 37554778, "file": "city-tallinn", "w": 1400, "author": "Nils Rotura", "use": "Rinkos: Talinas"},
+    {"id": 37613516, "file": "city-riga", "w": 1400, "author": "Joerg Hartmann", "use": "Rinkos: Ryga"},
+    {"id": 13172742, "file": "city-kyiv", "w": 1400, "author": "Kostiantyn Klymovets", "use": "Rinkos: Kyjivas"},
+    {"id": 30158443, "file": "city-stockholm", "w": 1400, "author": "Jakob Stöberl", "use": "Rinkos: Skandinavija"},
+    {"id": 7937315, "file": "catalog-flatlay", "w": 1800, "author": "Pavel Danilyuk", "use": "Katalogu sekcija"},
+    {"id": 4487383, "file": "warehouse", "w": 1800, "author": "Tiger Lily", "use": "Sandelis (atsargine nuotrauka)"},
+    {"id": 41195798, "file": "about-worker", "w": 1600, "author": "Mohammed Alnaily", "use": "Apie mus"},
+    {"id": 5800419, "file": "arch-curve", "w": 1400, "author": "Drew Anderson", "use": "Misija ir vizija"},
+    {"id": 36833957, "file": "formwork-bw", "w": 1800, "author": "Peter Dyllong", "use": "Kategoriju puslapio hero"},
+    {"id": 35548971, "file": "building-unfinished", "w": 1600, "author": "Kristine Bruzite", "use": "Kontaktu puslapio hero"},
+    {"id": 19408681, "file": "rebar-slab-workers", "w": 1600, "author": "Mehmet Turgut Kirkgoz", "use": "Produkto puslapis: naudojimas"},
+    {"id": 29299824, "file": "rebar-sky", "w": 1200, "author": "Maren Ferraro", "use": "Produkto puslapis"},
+    {"id": 10932215, "file": "steel-cage", "w": 1400, "author": "Lintang Samudera", "use": "Produkto puslapis"}
+  ],
+  "videos": [
+    {"id": 39924242, "src": "rebar-grid", "out": "hero-rebar", "w": 1920, "ss": 0, "t": 10, "crf": 26, "author": "Sergei Starostin", "use": "Pradzios hero (kompiuteris)"},
+    {"id": 39924250, "src": "rebar-vertical", "out": "hero-rebar-m", "w": 720, "ss": 0, "t": 8, "crf": 28, "author": "Sergei Starostin", "use": "Pradzios hero (telefonas)"},
+    {"id": 39924271, "src": "pour-formwork", "out": "pour-formwork", "w": 1280, "ss": 0, "t": 5.8, "crf": 28, "author": "Sergei Starostin", "use": "Kategorija, apie mus"},
+    {"id": 39924246, "src": "cages-formwork", "out": "cages-formwork", "w": 1280, "ss": 0, "t": 9, "crf": 28, "author": "Sergei Starostin", "use": "Kategorija: klojiniu priedai"},
+    {"id": 39924248, "src": "chute", "out": "chute", "w": 1280, "ss": 0, "t": 7.5, "crf": 28, "author": "Sergei Starostin", "use": "Kategorija: betoniniai fiksatoriai"},
+    {"id": 7793216, "src": "cement-surface", "out": "cement-surface", "w": 1280, "ss": 0, "t": 9, "crf": 28, "author": "Monstera Production", "use": "Kategorija: alyva ir tepalai"},
+    {"id": 31751344, "src": "warehouse-aisle", "out": "warehouse", "w": 1920, "ss": 0, "t": 9, "crf": 28, "author": "Dominik Zítka", "use": "Sandeliai ir pristatymas"},
+    {"id": 4404097, "src": "drone-site", "out": "drone-site", "w": 1920, "ss": 0, "t": 12, "crf": 28, "author": "K", "use": "Mes visur, kur jus statote"},
+    {"id": 34831851, "src": "aerial-pump", "out": "aerial-pump", "w": 1280, "ss": 0, "t": 10, "crf": 28, "author": "TR Studio", "use": "Produkto puslapis: naudojimas"}
+  ],
+  "reel": {
+    "out": "reel", "w": 1920, "crf": 27, "author": "Sergei Starostin, K, TR Studio, Dominik Zítka, yaman ozuduru", "use": "Video perziura (lightbox)",
+    "parts": [
+      ["rebar-grid", 1.0, 4.0],
+      ["cages-formwork", 0.5, 3.5],
+      ["pour-formwork", 0.0, 4.0],
+      ["chute", 0.5, 3.5],
+      ["aerial-pump", 1.0, 3.5],
+      ["drone-site", 2.0, 4.0],
+      ["warehouse-aisle", 4.0, 4.0],
+      ["aerial-timelapse", 0.0, 4.0]
+    ]
+  }
+}

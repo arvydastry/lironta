@@ -1,0 +1,66 @@
+<!-- XStore: Header Builder (Elementor), permatoma virš hero, lipni su fonu ir slėpimu slenkant žemyn. Produkcija: XStore Mega Menu. Užklausa: mini krepšelis (off-canvas). -->
+<header class="hdr {{hdrclass}}" id="hdr">
+  <div class="wrap hdr__in">
+    <a class="brand" href="index.html" aria-label="Lironta, pradžia">
+      <img class="brand__mark" src="assets/img/brand/rhino.svg" alt="" width="44" height="44">
+      <span class="brand__word">Lironta</span>
+    </a>
+    <nav class="nav" aria-label="Pagrindinis meniu">
+      <div class="nav__item" data-mega>
+        <a class="nav__link" href="produkcija.html" aria-haspopup="true" aria-expanded="false" {{nav_prod}}>Produkcija {{i:caret-down}}</a>
+        <div class="mega">
+          <div class="mega__panel">
+            <div class="wrap mega__in">
+              <div class="mega__grid">
+{{gen:mega}}
+              </div>
+              <a class="mega__promo" href="index.html#katalogai">
+                <img src="assets/img/products/2026-07-lironta-katalogas-2026.webp" alt="" loading="lazy">
+                <div><b>Katalogas 2026</b><span>Atsisiųsti PDF {{i:arrow-right}}</span></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="nav__link" href="index.html#katalogai">Katalogai</a>
+      <a class="nav__link" href="index.html#apie">Apie mus</a>
+      <a class="nav__link" href="index.html#naujienos">Naujienos</a>
+      <a class="nav__link" href="kontaktai.html" {{nav_kont}}>Kontaktai</a>
+    </nav>
+    <div class="hdr__actions">
+      <a class="hdr__phone" href="tel:+37069817002">{{i:phone}}+370 698 17002</a>
+      <div class="lang" data-lang>
+        <button class="lang__btn" type="button" aria-expanded="false" aria-label="Kalba: lietuvių">{{i:globe-simple}}LT{{i:caret-down}}</button>
+        <div class="lang__menu">
+          <a href="#" aria-current="true">Lietuvių <span>LT</span></a>
+          <a href="#" data-demo="lang">English <span>EN</span></a>
+          <a href="#" data-demo="lang">Русский <span>RU</span></a>
+          <a href="#" data-demo="lang">Eesti <span>ET</span></a>
+          <a href="#" data-demo="lang">Suomi <span>FI</span></a>
+        </div>
+      </div>
+      <button class="icon-btn hdr__search" type="button" data-open="search" aria-label="Produktų paieška">{{i:magnifying-glass}}</button>
+      <button class="inq-btn" type="button" data-open="drawer" aria-label="Užklausos sąrašas">{{i:clipboard-text}}<span>Užklausa</span><span class="inq-btn__count" data-inq-count>0</span></button>
+      <button class="icon-btn burger" type="button" data-open="mnav" aria-label="Meniu" aria-expanded="false">{{i:list}}</button>
+    </div>
+  </div>
+</header>
+
+<div class="mnav" id="mnav" aria-hidden="true">
+  <ul class="mnav__main">
+    <li style="--i:0"><a href="produkcija.html">Produkcija</a></li>
+    <li style="--i:1"><a href="index.html#katalogai">Katalogai</a></li>
+    <li style="--i:2"><a href="index.html#apie">Apie mus</a></li>
+    <li style="--i:3"><a href="index.html#naujienos">Naujienos</a></li>
+    <li style="--i:4"><a href="kontaktai.html">Kontaktai</a></li>
+  </ul>
+  <ul class="mnav__cats">
+{{gen:mobile_cats}}
+  </ul>
+  <div class="mnav__foot">
+    <button type="button" data-open="search" style="justify-self:start;display:inline-flex;gap:10px;align-items:center">{{i:magnifying-glass}}Produktų paieška</button>
+    <a href="tel:+37069817002">{{i:phone}}+370 698 17002</a>
+    <a href="mailto:lironta@lironta.lt">{{i:envelope-simple}}lironta@lironta.lt</a>
+    <span style="color:var(--on-night-2)">LT / <a href="#" data-demo="lang">EN</a> / <a href="#" data-demo="lang">RU</a> / <a href="#" data-demo="lang">ET</a> / <a href="#" data-demo="lang">FI</a></span>
+  </div>
+</div>

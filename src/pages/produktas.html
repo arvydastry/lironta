@@ -1,0 +1,88 @@
+<!--meta {
+  "title": "Produktas | Lironta",
+  "description": "Lironta produkto aprašymas, dydžiai ir pakuotės.",
+  "nav_prod": "aria-current=\"page\"",
+  "scripts": "<script src=\"assets/js/product.js\"></script>"
+} -->
+
+<!-- XStore: Single Product (Elementor Single Product šablonas): vertikali galerija su priartinimu, variacijų mygtukai (XStore Variation Swatches), kiekis, „Į užklausą“ vietoje „Į krepšelį“ (Request a Quote), skirtukai, susiję produktai, lipni pirkimo juosta (XStore Sticky Add to Cart). -->
+<section class="prod">
+  <div class="wrap">
+    <nav class="crumbs crumbs--dark" aria-label="Kelias" data-p-crumbs></nav>
+    <div class="prod__grid">
+      <div class="gal">
+        <div class="gal__thumbs" data-gal-thumbs></div>
+        <div class="gal__main" data-gal-main>
+          <span class="gal__code" data-p-code hidden></span>
+          <span class="gal__hint">{{i:arrows-out-simple}}Užveskite pelę, kad priartintumėte</span>
+          <img src="assets/img/brand/rhino.svg" alt="" data-gal-img>
+        </div>
+      </div>
+      <div class="pinfo">
+        <a class="pinfo__cat" href="produkcija.html" data-p-cat>{{i:arrow-left}}<span>Produkcija</span></a>
+        <h1 class="pinfo__title" data-p-title>Produktas</h1>
+        <div class="pinfo__desc" data-p-desc></div>
+        <div data-p-varwrap>
+          <div class="pinfo__label" id="var-l">Pasirinkite dydį <span data-p-vcount></span></div>
+          <div class="variants" role="radiogroup" aria-labelledby="var-l" data-p-variants></div>
+          <dl class="vinfo" data-p-vinfo></dl>
+        </div>
+        <div class="buy" data-buy>
+          <div class="qty"><button type="button" data-pq="-1" aria-label="Mažinti kiekį">{{i:minus}}</button><input type="number" min="1" value="1" aria-label="Kiekis" data-pqty><button type="button" data-pq="1" aria-label="Didinti kiekį">{{i:plus}}</button></div>
+          <button class="btn" type="button" data-p-add>Į užklausą <span class="btn__arrow">{{i:arrow-right}}{{i:arrow-right}}</span></button>
+        </div>
+        <ul class="assure">
+          <li>{{i:clipboard-text}}<span>Kainų nerodome: vadybininkas paskaičiuos pasiūlymą pagal kiekius ir pristatymo vietą.</span></li>
+          <li>{{i:truck}}<span>Didžiausi prekių sandėliai leidžia prekes pristatyti per maksimaliai trumpą laiką.</span></li>
+          <li>{{i:headset}}<span>Konsultacija: <a href="tel:+37069817002">+370 698 17002</a>, <a href="mailto:lironta@lironta.lt">lironta@lironta.lt</a></span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="ptabs">
+      <div class="ptabs__nav" role="tablist" aria-label="Produkto informacija">
+        <button type="button" role="tab" id="t-spec" aria-controls="p-spec" aria-selected="true">Specifikacija</button>
+        <button type="button" role="tab" id="t-how" aria-controls="p-how" aria-selected="false" tabindex="-1">Kaip užsakyti</button>
+        <button type="button" role="tab" id="t-dl" aria-controls="p-dl" aria-selected="false" tabindex="-1">Katalogas</button>
+      </div>
+      <div class="ptabs__panel" id="p-spec" role="tabpanel" aria-labelledby="t-spec"><div class="spec-wrap" data-p-spec></div></div>
+      <div class="ptabs__panel" id="p-how" role="tabpanel" aria-labelledby="t-how" hidden>
+        <div class="use__grid">
+          <div class="use__media cut"><video muted loop playsinline preload="none" poster="assets/video/aerial-pump.webp" data-src="assets/video/aerial-pump.mp4" data-autoplay></video></div>
+          <div>
+            <h2 class="h3">Trys žingsniai iki pasiūlymo</h2>
+            <ol class="use__steps">
+              <li>{{i:ruler}}<div><b>Parinkite dydį</b>Dydį ir kiekį nurodo projektas. Jei abejojate, padėsime parinkti pagal brėžinį.</div></li>
+              <li>{{i:clipboard-text}}<div><b>Įtraukite į užklausą</b>Surinkite visus reikalingus produktus į vieną sąrašą ir pateikite užklausą.</div></li>
+              <li>{{i:truck}}<div><b>Gaukite pasiūlymą</b>Vadybininkas susisieks, suderins kainą, kiekius ir pristatymą į objektą.</div></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="ptabs__panel" id="p-dl" role="tabpanel" aria-labelledby="t-dl" hidden>
+        <div class="dl-card">
+          <img src="assets/img/products/2026-07-lironta-katalogas-2026.webp" alt="Fiksatorių katalogas 2026, viršelis" loading="lazy">
+          <div><b>Fiksatorių katalogas 2026</b><p class="muted">Visi fiksatoriai su matmenimis ir pakuotėmis, PDF.</p><p style="margin-top:14px"><a class="link-arrow" href="https://lironta.lt/wp-content/uploads/2026/07/Lironta-katalogas-2026.pdf" target="_blank" rel="noopener">Atsisiųsti {{i:download-simple}}</a></p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="related" aria-labelledby="rel-title">
+  <div class="wrap">
+    <div class="related__head">
+      <h2 class="h2" id="rel-title" data-split>Susiję produktai</h2>
+      <div class="related__nav"><button type="button" data-rail="-1" aria-label="Ankstesni">{{i:arrow-left}}</button><button type="button" data-rail="1" aria-label="Kiti">{{i:arrow-right}}</button></div>
+    </div>
+    <div class="rail" data-rail-track></div>
+  </div>
+</section>
+
+<div class="stickybar" data-stickybar aria-hidden="true">
+  <div class="wrap stickybar__in">
+    <span class="stickybar__img"><img src="assets/img/brand/rhino.svg" alt="" data-sb-img></span>
+    <div class="stickybar__txt"><b data-sb-title></b><span data-sb-variant></span></div>
+    <button class="btn btn--sm" type="button" data-sb-add tabindex="-1">Į užklausą <span class="btn__arrow">{{i:arrow-right}}{{i:arrow-right}}</span></button>
+  </div>
+</div>

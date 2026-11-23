@@ -1,0 +1,33 @@
+<!-- XStore: Ajax Search (pilno ekrano), off-canvas mini krepšelis kaip užklausų sąrašas (Request a Quote įskiepis), pranešimas apie pridėjimą. -->
+<div class="overlay-bg" data-close></div>
+
+<div class="search" id="search" role="dialog" aria-modal="true" aria-label="Produktų paieška" aria-hidden="true">
+  <div class="wrap search__in">
+    <div class="search__top">
+      {{i:magnifying-glass}}
+      <input class="search__input" type="search" placeholder="Kodas arba pavadinimas" aria-label="Ieškoti produkto" autocomplete="off" data-search-input>
+      <button class="icon-btn" type="button" data-close aria-label="Uždaryti paiešką">{{i:x}}</button>
+    </div>
+    <p class="search__hint">Pavyzdžiui: KED, žvaigždutės, gofruotas vamzdis, BHJ</p>
+    <div class="search__res" data-search-res></div>
+  </div>
+</div>
+
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Užklausos sąrašas" aria-hidden="true">
+  <div class="drawer__head">
+    <h2 class="h4">Užklausa <b data-inq-total></b></h2>
+    <button class="icon-btn" type="button" data-close aria-label="Uždaryti užklausos sąrašą">{{i:x}}</button>
+  </div>
+  <div class="drawer__list" data-inq-list></div>
+  <div class="drawer__foot">
+    <p class="drawer__note">Kainų čia nerodome: vadybininkas paskaičiuos pasiūlymą pagal kiekius ir pristatymo vietą.</p>
+    <a class="btn btn--block" href="kontaktai.html#forma">Pateikti užklausą <span class="btn__arrow">{{i:arrow-right}}{{i:arrow-right}}</span></a>
+  </div>
+</aside>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Video apie Lironta" aria-hidden="true">
+  <button class="icon-btn lightbox__close" type="button" data-close aria-label="Uždaryti video">{{i:x}}</button>
+  <video controls playsinline preload="none" poster="assets/video/reel.webp" data-lightbox-video data-src="assets/video/reel.mp4"></video>
+</div>
+
+<div class="toast" role="status" aria-live="polite">{{i:check}}<span data-toast-text></span></div>

@@ -1,0 +1,72 @@
+<!--meta {
+  "title": "Produkcija | Lironta",
+  "description": "Armatūros fiksatoriai, plastmasiniai profiliai, klojinių priedai, hidroizoliacinės medžiagos, klojinių tepalai ir magnetai. Lironta produkcijos katalogas.",
+  "hdrclass": "hdr--over",
+  "nav_prod": "aria-current=\"page\"",
+  "scripts": "<script src=\"assets/js/catalog.js\"></script>"
+} -->
+
+<!-- XStore: WooCommerce produktų kategorijos archyvas. Viršus: Elementor „Archive“ šablonas su kategorijos paveikslėliu (paralaksas) ir aprašymu. -->
+<section class="phero on-dark" aria-labelledby="cat-title">
+  <div class="phero__media" data-parallax-bg>
+    <img src="assets/img/photos/formwork-bw.webp" alt="" data-cat-photo>
+    <video muted loop playsinline preload="none" data-cat-video hidden style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></video>
+  </div>
+  <div class="wrap phero__in">
+    <div>
+      <nav class="crumbs" aria-label="Kelias"><a href="index.html">Pradžia</a>{{i:caret-right}}<a href="produkcija.html">Produkcija</a><span data-cat-crumb></span></nav>
+      <h1 class="phero__title" id="cat-title" data-cat-title>Produkcija</h1>
+      <p class="phero__desc" data-cat-desc>Visos aštuonios produktų grupės: armatūros fiksatoriai, profiliai, klojinių priedai, hidroizoliacija, tepalai ir magnetai.</p>
+    </div>
+    <div class="phero__count" aria-live="polite"><b data-cat-count>100</b><span data-cat-count-l>produktų</span></div>
+  </div>
+</section>
+
+<!-- XStore: kategorijų skirtukai (Product Categories, horizontalus sąrašas), lipnūs po antrašte. -->
+<nav class="ctabs" aria-label="Produktų grupės">
+  <div class="wrap ctabs__scroll" data-ctabs>
+    <a class="ctabs__tab" href="produkcija.html" data-slug=""><img src="assets/img/brand/rhino.svg" alt=""><span>Visa produkcija</span></a>
+{{gen:cat_tabs}}
+  </div>
+</nav>
+
+<!-- XStore: Shop įrankių juosta (rikiavimas, tinklelis/sąrašas, Ajax filtras) ir produktų tinklelis su hover efektais, greitu pridėjimu į užklausą. Kainos išjungtos (Catalog mode). -->
+<section class="wrap" aria-label="Produktai">
+  <div class="toolbar">
+    <p class="toolbar__count" data-count-line>Rodoma <b>100</b> produktų</p>
+    <div class="toolbar__right">
+      <div class="field-search">{{i:magnifying-glass}}<input type="search" placeholder="Filtruoti pagal kodą ar pavadinimą" aria-label="Filtruoti produktus" data-filter></div>
+      <select class="select" aria-label="Rikiavimas" data-sort>
+        <option value="cat">Pagal katalogą</option>
+        <option value="az">Pavadinimas A-Ž</option>
+        <option value="code">Pagal kodą</option>
+      </select>
+      <div class="viewtoggle" role="group" aria-label="Vaizdas">
+        <button type="button" aria-pressed="true" data-view="grid" aria-label="Tinklelis">{{i:squares-four}}</button>
+        <button type="button" aria-pressed="false" data-view="list" aria-label="Sąrašas">{{i:rows}}</button>
+      </div>
+    </div>
+  </div>
+  <div class="pgrid" data-grid></div>
+</section>
+
+<section class="cat-cta" aria-label="Katalogas ir užklausa">
+  <div class="wrap cat-cta__in">
+    <div class="cat-cta__card cat-cta__card--dark">
+      <img src="assets/img/products/2026-07-lironta-katalogas-2026.webp" alt="Fiksatorių katalogas 2026, viršelis" loading="lazy">
+      <div>
+        <h2 class="h3">Visa produkcija viename PDF</h2>
+        <p>Matmenys, pakuotės ir naudojimo pavyzdžiai 2026 metų kataloge.</p>
+        <a class="link-arrow" href="https://lironta.lt/wp-content/uploads/2026/07/Lironta-katalogas-2026.pdf" target="_blank" rel="noopener">Atsisiųsti PDF {{i:download-simple}}</a>
+      </div>
+    </div>
+    <div class="cat-cta__card">
+      <span class="vcard__icon">{{i:headset}}</span>
+      <div>
+        <h2 class="h3">Nerandate reikiamo gaminio?</h2>
+        <p>Parinksime sprendimą pagal brėžinį arba produktų sąrašą.</p>
+        <a class="link-arrow" href="kontaktai.html#forma">Pateikti užklausą {{i:arrow-right}}</a>
+      </div>
+    </div>
+  </div>
+</section>

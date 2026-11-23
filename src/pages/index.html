@@ -1,0 +1,318 @@
+<!--meta {
+  "title": "Lironta | Betonuotojo partneris nuo 1994 m.",
+  "description": "Plastikiniai, metaliniai ir betoniniai armatūros fiksatoriai, klojinių priedai, profiliai, hidroizoliacija ir klojinių tepalai. UAB „Lironta“, Vilnius.",
+  "scripts": "<script src=\"assets/js/home.js\"></script>"
+} -->
+
+<div class="intro-curtain" aria-hidden="true">
+  <div>
+    <img class="intro-curtain__mark" src="assets/img/brand/rhino.svg" alt="">
+    <div class="intro-curtain__word">Lironta</div>
+  </div>
+</div>
+
+<!-- XStore: Elementor sekcija su fono video (Pexels) ir „Scrolling effects“; išsiplečiantis rėmelis yra papildomas GSAP scenarijus child temoje. -->
+<section class="hero" id="top" aria-label="Lironta">
+  <div class="hero__frame" data-hero-frame>
+    <div class="hero__media" data-hero-media>
+      <video class="is-d" autoplay muted loop playsinline preload="auto" poster="assets/video/hero-rebar.webp" data-hero-video><source src="assets/video/hero-rebar.mp4" type="video/mp4"></video>
+      <video class="is-m" autoplay muted loop playsinline preload="metadata" poster="assets/video/hero-rebar-m.webp" data-hero-video><source src="assets/video/hero-rebar-m.mp4" type="video/mp4"></video>
+    </div>
+  </div>
+  <button class="vtoggle" type="button" data-vtoggle aria-label="Sustabdyti fono video"><svg class="ic i-pause" aria-hidden="true"><use href="#i-pause"/></svg><svg class="ic i-play" aria-hidden="true"><use href="#i-play"/></svg></button>
+  <div class="hero__content" data-hero-content>
+    <div class="wrap">
+      <div>
+        <h1 class="h-display hero__title" data-hero-title><span class="line"><span>Mes visur,</span></span><span class="line"><span>kur Jūs <span class="tape">statote</span></span></span></h1>
+        <p class="hero__sub" data-hero-fade>Armatūros fiksatoriai, klojinių priedai ir betonavimo sprendimai profesionalams. Nuo 1994 metų.</p>
+        <div class="hero__ctas" data-hero-fade>
+          <a class="btn" href="produkcija.html">Produkcija <span class="btn__arrow">{{i:arrow-right}}{{i:arrow-right}}</span></a>
+        </div>
+      </div>
+      <button class="play" type="button" data-open="lightbox" aria-label="Žiūrėti video apie Lironta" data-hero-fade data-magnet>
+        <svg class="play__ring" viewBox="0 0 132 132" aria-hidden="true"><defs><path id="play-ring" d="M66,66 m-52,0 a52,52 0 1,1 104,0 a52,52 0 1,1 -104,0"/></defs><text><textPath href="#play-ring" textLength="322" lengthAdjust="spacing">Žiūrėti video / Lironta / nuo 1994 /</textPath></text></svg>
+        <span class="play__core">{{i:play}}</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- XStore: „Marquee“ tipo teksto juosta (Elementor Pro Loop arba child temos trumpasis kodas). Kodai generuojami iš katalogo. -->
+<div class="mq" role="img" aria-label="Lironta produktų kodai: KED, FU, UF, 5Z, ZV ir kiti">
+  <div class="mq__track" data-marquee>{{gen:marquee}}</div>
+</div>
+
+<!-- XStore: Text Editor + Counter valdikliai; žodžių paryškėjimas slenkant yra child temos GSAP scenarijus. -->
+<section class="section about" id="apie">
+  <div class="wrap about__grid">
+    <div class="about__head"><span class="kicker">Susipažinkime</span></div>
+    <p class="about__statement" data-words>UAB „Lironta“ nuo 1994 metų tiekia plastikinius, metalinius ir betoninius armatūros fiksatorius bei kitus betonavimo priedus. Jie užtikrina monolitinių konstrukcijų ir gelžbetonio gaminių tikslumą, ilgaamžiškumą ir patikimą eksploataciją.</p>
+    <div class="about__media">
+      <div class="about__video cut" data-reveal><video muted loop playsinline preload="none" poster="assets/video/pour-formwork.webp" data-src="assets/video/pour-formwork.mp4" data-autoplay data-parallax="-6"></video></div>
+      <div class="about__photo cut" data-reveal style="--d:.15s"><img src="assets/img/photos/about-worker-sm.webp" alt="Darbininkas lygina šviežią betoną" loading="lazy" data-parallax="8"></div>
+    </div>
+    <div class="about__sign" data-reveal><img src="assets/img/brand/rhino.svg" alt="" width="54" height="54"><span>Pagarbiai, UAB „Lironta“ komanda</span></div>
+    <div class="stats">
+      <div class="stat" data-reveal><span class="stat__n" data-count="1994" data-count-from="1960">1994</span><span class="stat__l">Įkūrimo metai. Daugiau nei 30 metų betonavimo darbuose.</span></div>
+      <div class="stat" data-reveal style="--d:.08s"><span class="stat__n"><span data-count="{{gen:products_total}}">{{gen:products_total}}</span><sup>+</sup></span><span class="stat__l">Produktų pozicijų kataloge su matmenimis ir pakuotėmis.</span></div>
+      <div class="stat" data-reveal style="--d:.16s"><span class="stat__n" data-count="8">8</span><span class="stat__l">Produktų grupės: nuo fiksatorių iki magnetų.</span></div>
+      <div class="stat" data-reveal style="--d:.24s"><span class="stat__n" data-count="5">5</span><span class="stat__l">Rinkos: Lietuva, Latvija, Estija, Ukraina ir Skandinavija.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- XStore: produktų kategorijų karuselė (Product Categories). Horizontalus slinkimas su prisegimu yra child temos GSAP ScrollTrigger scenarijus. -->
+<section class="cats" id="produkcija" aria-labelledby="cats-title">
+  <div class="wrap cats__head">
+    <div>
+      <h2 class="h2" id="cats-title" data-split>Produkcija</h2>
+      <p class="lead">Aštuonios produktų grupės betonavimui: nuo armatūros fiksatorių iki klojinių tepalų.</p>
+    </div>
+    <a class="link-arrow" href="produkcija.html">Visa produkcija {{i:arrow-right}}</a>
+  </div>
+  <div class="cats__pin" data-hscroll>
+    <div class="cats__track" data-hscroll-track>
+{{gen:cat_panels}}
+      <div class="cats__end">
+        <p>Nerandate reikiamo gaminio?</p>
+        <a class="btn btn--ink" href="kontaktai.html#forma">Pateikti užklausą <span class="btn__arrow">{{i:arrow-right}}{{i:arrow-right}}</span></a>
+      </div>
+    </div>
+    <div class="cats__bar" aria-hidden="true"><i data-hscroll-bar></i></div>
+  </div>
+</section>
+
+<!-- XStore: nėra standartinio atitikmens. Parinkiklis yra child temos JS modulis, duomenys imami iš WooCommerce variacijų (apsauginis sluoksnis, armatūros skersmuo). -->
+<section class="section pick" id="parinkimas" aria-labelledby="pick-title">
+  <div class="wrap pick__grid">
+    <div class="pick__ctrl">
+      <h2 class="h2" id="pick-title" data-split>Raskite tinkamą fiksatorių</h2>
+      <p class="lead">Pasirinkite apsauginį betono sluoksnį ir armatūros skersmenį. Parodysime tinkamus gaminius iš katalogo.</p>
+      <div class="pick__field">
+        <div class="pick__label"><label for="pick-cover">Apsauginis sluoksnis</label></div>
+        <div class="pick__value" aria-hidden="true"><span data-pick-cover-out>25</span><small>mm</small></div>
+        <div class="ruler">
+          <div class="ruler__ticks" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <input id="pick-cover" type="range" min="10" max="60" step="5" value="25" data-pick-cover aria-valuetext="25 milimetrai">
+          <div class="ruler__nums" aria-hidden="true"><span>10</span><span>20</span><span>30</span><span>40</span><span>50</span><span>60</span></div>
+        </div>
+      </div>
+      <div class="pick__field">
+        <div class="pick__label" id="pick-rebar-l">Armatūros skersmuo, mm</div>
+        <div class="chips" role="group" aria-labelledby="pick-rebar-l" data-pick-rebar>
+          <button class="chip" type="button" aria-pressed="false" data-v="8">Ø8</button>
+          <button class="chip" type="button" aria-pressed="false" data-v="10">Ø10</button>
+          <button class="chip" type="button" aria-pressed="true" data-v="12">Ø12</button>
+          <button class="chip" type="button" aria-pressed="false" data-v="14">Ø14</button>
+          <button class="chip" type="button" aria-pressed="false" data-v="16">Ø16</button>
+          <button class="chip" type="button" aria-pressed="false" data-v="20">Ø20</button>
+          <button class="chip" type="button" aria-pressed="false" data-v="25">Ø25</button>
+        </div>
+      </div>
+      <div class="section-x cut" aria-hidden="true">
+        <svg viewBox="0 0 420 170" preserveAspectRatio="xMidYMid meet" data-pick-svg>
+          <rect class="sx-concrete" x="0" y="18" width="420" height="132"/>
+          <rect class="sx-form" x="0" y="150" width="420" height="20"/>
+          <g data-sx-spacers></g>
+          <g data-sx-rebars></g>
+          <line class="sx-dim" x1="34" y1="150" x2="34" y2="110" data-sx-dim/>
+          <line class="sx-dim" x1="24" y1="150" x2="44" y2="150"/>
+          <line class="sx-dim" x1="24" y1="110" x2="44" y2="110" data-sx-dimtop/>
+          <text class="sx-label" x="52" y="136" data-sx-label>25 mm</text>
+          <text class="sx-cap" x="12" y="36">Betonas</text>
+          <text class="sx-cap" x="12" y="164" style="fill:#fff">Klojinys</text>
+        </svg>
+      </div>
+    </div>
+    <div class="pick__res" aria-live="polite">
+      <div class="pick__res-head"><b data-pick-count>Gaminiai</b><span data-pick-summary></span></div>
+      <div class="pick__list" data-pick-list></div>
+    </div>
+  </div>
+</section>
+
+<!-- XStore: Elementor sekcija su „Sticky“ ir „Scrolling effects“ (mastelis); raganosio judesys yra child temos GSAP scenarijus, SVG perpieštas iš logotipo. -->
+<section class="rhino-sec" aria-labelledby="rhino-title">
+  <div class="rhino-sec__pin" data-rhino>
+    <div class="rhino-sec__bg" aria-hidden="true" data-rhino-bg><span>Lironta</span><span>Lironta</span><span>Lironta</span><span>Lironta</span></div>
+    <div class="rhino-sec__beast" data-rhino-beast>{{rhino}}</div>
+    <div class="rhino-sec__copy">
+      <h2 class="rhino-sec__title" id="rhino-title" data-split>Betonuotojo partneris</h2>
+      <p class="rhino-sec__text" data-reveal>Laiko patikrintas ir išgrynintas asortimentas palengvina specialistų darbą ir leidžia orientuotis į rezultatą. Lyderio pozicijas užimanti „Lironta“ užtikrina savo klientų pranašumą rinkoje.</p>
+    </div>
+  </div>
+</section>
+
+<!-- XStore: keturios Elementor kortelės su „Sticky“ (top) ir „Scrolling effects“ (mastelis). -->
+<section class="section values" id="vertybes" aria-labelledby="values-title">
+  <div class="wrap">
+    <div class="values__head">
+      <h2 class="h2" id="values-title" data-split>Vertybės</h2>
+      <p class="lead" data-reveal>Mūsų veikla pagrįsta klientų poreikiais, aukštos kokybės ir operatyvaus darbo siekiu.</p>
+    </div>
+    <div class="vstack" data-vstack>
+      <article class="vcard" style="--i:0">
+        <div class="vcard__body">
+          <span class="vcard__icon">{{i:users-three}}</span>
+          <h3 class="vcard__title">Komandinis darbas</h3>
+          <p class="vcard__text">Siekiame glaudaus vadovų ir darbuotojų bendradarbiavimo, dalinamės patirtimi ir žiniomis. Sprendimai komandoje yra etiški, sąžiningi ir skaidrūs. Efektyvus komandinis darbas yra viena svarbiausių mūsų sėkmės priežasčių.</p>
+        </div>
+        <div class="vcard__media"><img src="assets/img/photos/val-komanda.webp" alt="Statybininkų komanda ant plieninės konstrukcijos" loading="lazy" data-parallax="6"></div>
+      </article>
+      <article class="vcard vcard--dark" style="--i:1">
+        <div class="vcard__body">
+          <span class="vcard__icon">{{i:handshake}}</span>
+          <h3 class="vcard__title">Dėmesys klientui</h3>
+          <p class="vcard__text">Didžiausią dėmesį skiriame klientų poreikiams. Formuojame pirkėjų lūkesčius atitinkantį asortimentą, greitai prisitaikome prie rinkos pokyčių, reaguojame į pasiūlymus ir siūlome konkurencingas kainas.</p>
+        </div>
+        <div class="vcard__media"><img src="assets/img/photos/val-klientas.webp" alt="Rankų paspaudimas statybų aikštelėje" loading="lazy" data-parallax="6"></div>
+      </article>
+      <article class="vcard vcard--stone" style="--i:2">
+        <div class="vcard__body">
+          <span class="vcard__icon">{{i:lightbulb}}</span>
+          <h3 class="vcard__title">Nuolatinis tobulėjimas</h3>
+          <p class="vcard__text">Esame atviri naujovėms ir siekiame profesinio tobulėjimo. Nuolat ieškome produktyviausių sprendimų, kurie gerina darbo procesus ir padeda išlaikyti lyderio pozicijas rinkoje.</p>
+        </div>
+        <div class="vcard__media"><img src="assets/img/photos/val-tobulejimas.webp" alt="Inžinieriai aptaria brėžinį statybvietėje" loading="lazy" data-parallax="6"></div>
+      </article>
+      <article class="vcard vcard--mv" style="--i:3">
+        <div class="vcard__body">
+          <span class="vcard__icon">{{i:stack}}</span>
+          <h3 class="vcard__title">Misija ir vizija</h3>
+          <div class="vcard__mv">
+            <div><b>Misija</b><p>Patikimas ir produktyvus betonavimo užduočių partneris, siūlantis didžiausią prekių asortimentą, profesionalias konsultacijas, patogų aptarnavimą ir palankias kainas.</p></div>
+            <div><b>Vizija</b><p>Savo sprendimais užtikrinti produktyvesnį specialistų darbą, palengvinti betonavimo užduotis ir nuolat stiprinti pozicijas tarptautinėje rinkoje.</p></div>
+          </div>
+        </div>
+        <div class="vcard__media"><img src="assets/img/photos/arch-curve.webp" alt="Lenktos betoninės architektūros detalė" loading="lazy" data-parallax="6"></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- XStore: Elementor sekcija su fono video ir „Scrolling effects“ (vertikalus paralaksas). -->
+<section class="band on-dark" id="sandeliai" aria-labelledby="band-title">
+  <div class="band__media" data-parallax-bg><video muted loop playsinline preload="none" poster="assets/video/warehouse.webp" data-src="assets/video/warehouse.mp4" data-autoplay></video></div>
+  <div class="wrap band__in">
+    <h2 class="band__title" id="band-title" data-split>Didžiausi sandėliai, greitas pristatymas</h2>
+    <p class="band__text" data-reveal>Nuolatinis įmonės augimas garantuoja platų prekių asortimentą ir konkurencingas kainas. Didžiausi prekių sandėliai leidžia pageidaujamas prekes pristatyti per maksimaliai trumpą laiką.</p>
+    <div class="band__feats">
+      <div class="feat" data-reveal>{{i:warehouse}}<b>Sandėlis Vilniuje</b><p>Titnago g. 19. Plačiausias fiksatorių ir klojinių priedų asortimentas vienoje vietoje.</p></div>
+      <div class="feat" data-reveal style="--d:.1s">{{i:headset}}<b>Konsultacijos</b><p>Profesionali komanda padeda parinkti sprendimą ir išspręsti betonavimo užduotis.</p></div>
+      <div class="feat" data-reveal style="--d:.2s">{{i:seal-check}}<b>Patikrinti tiekėjai</b><p>Dirbame tik su laiko patikrintais tiekėjais ir partneriais.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- XStore: Elementor sąrašas su failų nuorodomis; viršelių vėduoklė yra child temos scenarijus (atsarginis variantas: XStore Image Hotspot / Banner). -->
+<section class="section kat" id="katalogai" aria-labelledby="kat-title">
+  <div class="wrap kat__grid">
+    <div>
+      <span class="kicker">PDF katalogai</span>
+      <h2 class="h2" id="kat-title" data-split style="margin-top:20px">Atsisiųskite katalogus</h2>
+      <p class="lead" data-reveal style="margin-top:22px">Visa produkcija su matmenimis ir pakuotėmis. Užveskite pelę ant katalogo ir pamatysite viršelį.</p>
+      <ul class="kat__list" data-kat-list>
+{{gen:catalog_rows}}
+      </ul>
+    </div>
+    <div class="kat__stage" data-kat-stage>
+{{gen:catalog_covers}}
+    </div>
+  </div>
+</section>
+
+<!-- XStore: Elementor sąrašas; vaizdas, sekantis pelę, yra child temos scenarijus (mobiliajame išjungtas). -->
+<section class="section mk on-dark" id="rinkos" aria-labelledby="mk-title">
+  <div class="wrap">
+    <div class="mk__head">
+      <div>
+        <h2 class="h2" id="mk-title" data-split>Mes visur, kur Jūs statote</h2>
+        <p class="lead" data-reveal>Pardavimai Lietuvoje, Latvijoje ir Estijoje, filialas Ukrainoje ir eksportas į Skandinavijos šalis.</p>
+      </div>
+      <a class="link-arrow" href="kontaktai.html">Visi kontaktai {{i:arrow-right}}</a>
+    </div>
+    <ul class="mk__list" data-mk>
+      <li class="mrow" data-img="0" data-reveal>
+        <div><span class="mrow__country">Lietuva</span><span class="mrow__city">Vilnius</span></div>
+        <div class="mrow__who"><b>Tomas Balionis</b><span>Komercijos direktorius, užsakymai Vilniuje</span></div>
+        <div class="mrow__links"><a href="tel:+37069817002">{{i:phone}}+370 698 17002</a><a href="mailto:tomas@lironta.lt">{{i:envelope-simple}}tomas@lironta.lt</a></div>
+      </li>
+      <li class="mrow" data-img="1" data-reveal>
+        <div><span class="mrow__country">Lietuva</span><span class="mrow__city">Panevėžys</span></div>
+        <div class="mrow__who"><b>Roman Liasockij</b><span>Vadybininkas, užsakymai Lietuvoje ir Latvijoje</span></div>
+        <div class="mrow__links"><a href="tel:+37068050119">{{i:phone}}+370 680 50119</a><a href="mailto:roman@lironta.lt">{{i:envelope-simple}}roman@lironta.lt</a></div>
+      </li>
+      <li class="mrow" data-img="2" data-reveal>
+        <div><span class="mrow__country">Latvija</span><span class="mrow__city">Ryga</span></div>
+        <div class="mrow__who"><b>Jānis Karlsons</b><span>Vadybininkas, užsakymai Latvijoje</span></div>
+        <div class="mrow__links"><a href="tel:+37122331113">{{i:phone}}+371 22 331 113</a><a href="mailto:lironta@lironta.lv">{{i:envelope-simple}}lironta@lironta.lv</a></div>
+      </li>
+      <li class="mrow" data-img="3" data-reveal>
+        <div><span class="mrow__country">Estija</span><span class="mrow__city">Talinas</span></div>
+        <div class="mrow__who"><b>Sergey Letnikov</b><span>Vadybininkas, užsakymai Estijoje</span></div>
+        <div class="mrow__links"><a href="tel:+37258003444">{{i:phone}}+372 58 003 444</a><a href="mailto:sales@lironta.ee">{{i:envelope-simple}}sales@lironta.ee</a></div>
+      </li>
+      <li class="mrow" data-img="4" data-reveal>
+        <div><span class="mrow__country">Ukraina</span><span class="mrow__city">Kyjivas</span></div>
+        <div class="mrow__who"><b>Фиксатор ООО</b><span>Filialas Ukrainoje, ул. Бориспольская 40</span></div>
+        <div class="mrow__links"><a href="tel:+380445683831">{{i:phone}}+38 044 568 38 31</a><a href="mailto:info@fiksator.biz.ua">{{i:envelope-simple}}info@fiksator.biz.ua</a></div>
+      </li>
+      <li class="mrow" data-img="5" data-reveal>
+        <div><span class="mrow__country">Eksportas</span><span class="mrow__city">Skandinavija</span></div>
+        <div class="mrow__who"><b>Joris Girštautas</b><span>Eksportas Skandinavijos rinkai</span></div>
+        <div class="mrow__links"><a href="tel:+37062220766">{{i:phone}}+370 622 20766</a><a href="mailto:sales@lironta.lt">{{i:envelope-simple}}sales@lironta.lt</a></div>
+      </li>
+    </ul>
+  </div>
+  <div class="mk__float" aria-hidden="true" data-mk-float>
+    <img src="assets/img/photos/city-vilnius-sm.webp" alt="" loading="lazy">
+    <img src="assets/img/photos/warehouse-sm.webp" alt="" loading="lazy">
+    <img src="assets/img/photos/city-riga-sm.webp" alt="" loading="lazy">
+    <img src="assets/img/photos/city-tallinn-sm.webp" alt="" loading="lazy">
+    <img src="assets/img/photos/city-kyiv-sm.webp" alt="" loading="lazy">
+    <img src="assets/img/photos/city-stockholm-sm.webp" alt="" loading="lazy">
+  </div>
+</section>
+
+<!-- XStore: Blog Posts (Elementor) arba XStore Posts valdiklis, du įrašai. -->
+<section class="section news" id="naujienos" aria-labelledby="news-title">
+  <div class="wrap">
+    <h2 class="h2" id="news-title" data-split>Naujienos</h2>
+    <div class="news__grid">
+      <article class="ncard" data-reveal>
+        <div class="ncard__media"><img src="assets/img/photos/catalog-flatlay.webp" alt="Brėžiniai, gulsčiukas ir šalmas ant betono" loading="lazy"></div>
+        <div class="ncard__body">
+          <span class="ncard__date">{{i:calendar-blank}}2026 m. liepa</span>
+          <h3 class="ncard__title">Fiksatorių katalogas 2026</h3>
+          <p class="ncard__text">Atnaujintame kataloge rasite visus plastikinius, metalinius ir betoninius armatūros fiksatorius su matmenimis ir pakuotėmis.</p>
+          <a class="link-arrow" href="https://lironta.lt/wp-content/uploads/2026/07/Lironta-katalogas-2026.pdf" target="_blank" rel="noopener">Atsisiųsti PDF {{i:arrow-right}}</a>
+        </div>
+      </article>
+      <article class="ncard" data-reveal style="--d:.1s">
+        <div class="ncard__media ncard__media--prod"><img src="assets/img/products/2017-08-fanera130.webp" alt="Laminuota fanera" loading="lazy"></div>
+        <div class="ncard__body">
+          <span class="ncard__date">{{i:package}}Asortimentas</span>
+          <h3 class="ncard__title">Laminuota fanera klojiniams</h3>
+          <p class="ncard__text">Ruda laminuota fanera (topolis) klojinių gamybai ir kitiems statybos darbams. 2440 × 1220 × 21 mm, parduodama lapais po 2,98 m².</p>
+          <a class="link-arrow" href="produktas.html?p=laminuota-fanera">Peržiūrėti produktą {{i:arrow-right}}</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- XStore: Elementor sekcija su fono video ir mygtuku į užklausos formą. -->
+<section class="section cta on-dark" id="uzklausa" aria-labelledby="cta-title">
+  <div class="cta__media" data-parallax-bg><video muted loop playsinline preload="none" poster="assets/video/drone-site.webp" data-src="assets/video/drone-site.mp4" data-autoplay></video></div>
+  <div class="wrap cta__in">
+    <h2 class="cta__title" id="cta-title" data-split>Reikia pasiūlymo?</h2>
+    <div data-reveal>
+      <p class="cta__text">Atsiųskite produktų sąrašą arba brėžinį. Mūsų specialistai parinks sprendimą ir paskaičiuos kainą.</p>
+      <div class="cta__actions"><a class="btn" href="kontaktai.html#forma">Pateikti užklausą <span class="btn__arrow">{{i:arrow-right}}{{i:arrow-right}}</span></a></div>
+      <div class="cta__contacts">
+        <a href="tel:+37069817002">{{i:phone}}+370 698 17002</a>
+        <a href="mailto:lironta@lironta.lt">{{i:envelope-simple}}lironta@lironta.lt</a>
+      </div>
+    </div>
+  </div>
+</section>
