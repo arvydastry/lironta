@@ -6,7 +6,9 @@ Turinys perkeltas iš dabartinės svetainės (tekstai, 100 produktų su dydžių
 
 ## Peržiūra
 
-- `python3 serve.py` ir atverti <http://localhost:8172/> (`.claude/launch.json` konfigūracija `lironta`).
+- **Gyva versija:** <https://arvydastry.github.io/lironta/> („GitHub Pages“ iš saugyklos <https://github.com/arvydastry/lironta> `main` šakos šaknies; failas `.nojekyll` išjungia „Jekyll“). Tiesioginės nuorodos: [produkcija](https://arvydastry.github.io/lironta/produkcija.html?k=plastmasiniai-armaturos-fiksatoriai), [produktas](https://arvydastry.github.io/lironta/produktas.html?p=ked-kedutes-sunkios), [kontaktai](https://arvydastry.github.io/lironta/kontaktai.html).
+- Atnaujinimas: `python3 build.py`, tada `git add -A`, `git commit` ir `git push`. „Pages“ persigeneruoja maždaug per minutę.
+- Vietoje: `python3 serve.py` ir atverti <http://localhost:8172/> (`.claude/launch.json` konfigūracija `lironta`).
 - Po šablonų ar duomenų pakeitimų: `python3 build.py` (tik standartinė Python biblioteka).
 - `?static=1` prie adreso išjungia judesį ir video (patogu ekrano nuotraukoms). Esant `prefers-reduced-motion` judesys išsijungia automatiškai.
 - Puslapiai turi `noindex, nofollow`. Prieš tikrą paleidimą žymą išimti.
